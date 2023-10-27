@@ -1,0 +1,29 @@
+local function callback(Text)
+ if Text == "Ok" then
+  print ("Answer")
+elseif Text == ("Kys") then
+ print ("Answer2")
+ end
+end
+
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+--
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "Autoparry Loaded";
+ Text = "Enjoy it lol";
+ Icon = "";
+ Duration = 5;
+ Button1 = "Ok";
+ Button2 = "kys nigger💀";
+ Callback = NotificationBindable;
+})
+
+getgenv().ScriptConfig = {
+    -- Distance in stud before the automatic triggers,
+    -- you may change even after you have ran the script if you desire!
+    -- Just be sure to REMOVE the loadstring, or else you will face some... issues
+	DistanceBeforeParry = 31,
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sussy-Tech/Scripts/main/BladeBall.lua"))()
