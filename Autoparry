@@ -10,7 +10,7 @@ local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 --
 game.StarterGui:SetCore("SendNotification",  {
- Title = "Maxwell Hub Autoparry";
+ Title = "MYN Hub Autoparry";
  Text = "Loaded!";
  Icon = "";
  Duration = 5;
