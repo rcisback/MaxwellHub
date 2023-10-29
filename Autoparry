@@ -1,7 +1,7 @@
 local function callback(Text)
  if Text == "Ok" then
   print ("Answer")
-elseif Text == ("Kys") then
+elseif Text == ("silly goober🥰") then
  print ("Answer2")
  end
 end
@@ -15,7 +15,7 @@ game.StarterGui:SetCore("SendNotification",  {
  Icon = "";
  Duration = 5;
  Button1 = "Ok";
- Button2 = "kys nigger💀";
+ Button2 = "silly goober🥰;
  Callback = NotificationBindable;
 })
 
