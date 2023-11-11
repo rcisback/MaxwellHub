@@ -19,4 +19,11 @@ game.StarterGui:SetCore("SendNotification",  {
  Callback = NotificationBindable;
 })
 
-getgenv().config = getgenv().config or { hit_time = 0.3, -- // recommended 0.25 to 0.75 \ -- mode = 'Always', -- // Hold , Toggle , Always \ -- deflect_type = 'Remote', -- // Key Press , Remote \ -- notifications = false, keybind = Enum.KeyCode.V } loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry%20V4.0.0",true))()
+getgenv().ScriptConfig = {
+    -- Distance in stud before the automatic triggers,
+    -- you may change even after you have ran the script if you desire!
+    -- Just be sure to REMOVE the loadstring, or else you will face some... issues
+	DistanceBeforeParry = 31.4,
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Sussy-Tech/Scripts/main/BladeBall.lua"))()
