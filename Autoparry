@@ -5,8 +5,9 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 })
 
 
+while task.wait(0) do local Event = 
 game:GetService'StarterGui':SetCore("DevConsoleVisible", false)
+end
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry",true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/CloseCombat/main/Nextix"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/M%3ABlade%20Ball%20Mechanism",true))()
-game:GetService'StarterGui':SetCore("DevConsoleVisible", false)
