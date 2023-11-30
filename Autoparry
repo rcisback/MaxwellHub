@@ -5,7 +5,15 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 })
 
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/NextixHub/main/Autoparry",true))()
+getgenv().config = getgenv().config or {
+	hit_time = 0.75, -- // recommended 0.25 to 0.75 \\ --
+ 
+	mode = 'Always', -- // Hold , Toggle , Always \\ --
+	deflect_type = 'Remote', -- // Key Press , Remote \\ --
+	notifications = false,
+	keybind = Enum.KeyCode.V
+}
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry%20V4.0.0",true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/CloseCombat/main/Nextix"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/M%3ABlade%20Ball%20Mechanism",true))()
-game:GetService'StarterGui':SetCore("DevConsoleVisible", false)
