@@ -3,6 +3,8 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 	Text = "LOADED!", -- Required
 	Icon = "" -- Optional
 })
+
+
 game:GetService'StarterGui':SetCore("DevConsoleVisible", false)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/MC%3ABlade%20Ball%20Parry",true))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/rcisback/CloseCombat/main/Nextix"))()
